@@ -17,7 +17,7 @@
 		50E79DDD1F7CD22B00A2E6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50E79DE41F7CD29D00A2E6FB /* TypeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeConversion.swift; sourceTree = "<group>"; };
 		50E79DE81F7CDDF600A2E6FB /* SwiftTypeConversion.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftTypeConversion.podspec; sourceTree = "<group>"; };
-		50E79DEB1F7CDE6F00A2E6FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "SwiftTypeConversion/New Group/README.md"; sourceTree = SOURCE_ROOT; };
+		50E79DEE1F7CE36E00A2E6FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,28 +51,28 @@
 			isa = PBXGroup;
 			children = (
 				50E79DDC1F7CD22B00A2E6FB /* SwiftTypeConversion.h */,
-				50E79DEC1F7CE28600A2E6FB /* source */,
-				50E79DED1F7CE2B400A2E6FB /* config */,
+				50E79DF11F7CE3E200A2E6FB /* source */,
+				50E79DEF1F7CE37600A2E6FB /* config */,
 			);
 			path = SwiftTypeConversion;
 			sourceTree = "<group>";
 		};
-		50E79DEC1F7CE28600A2E6FB /* source */ = {
-			isa = PBXGroup;
-			children = (
-				50E79DE41F7CD29D00A2E6FB /* TypeConversion.swift */,
-			);
-			path = source;
-			sourceTree = "<group>";
-		};
-		50E79DED1F7CE2B400A2E6FB /* config */ = {
+		50E79DEF1F7CE37600A2E6FB /* config */ = {
 			isa = PBXGroup;
 			children = (
 				50E79DE81F7CDDF600A2E6FB /* SwiftTypeConversion.podspec */,
 				50E79DDD1F7CD22B00A2E6FB /* Info.plist */,
-				50E79DEB1F7CDE6F00A2E6FB /* README.md */,
+				50E79DEE1F7CE36E00A2E6FB /* README.md */,
 			);
-			path = config;
+			name = config;
+			sourceTree = "<group>";
+		};
+		50E79DF11F7CE3E200A2E6FB /* source */ = {
+			isa = PBXGroup;
+			children = (
+				50E79DE41F7CD29D00A2E6FB /* TypeConversion.swift */,
+			);
+			name = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
