@@ -17,6 +17,8 @@
 		50E79DDD1F7CD22B00A2E6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50E79DE41F7CD29D00A2E6FB /* TypeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeConversion.swift; sourceTree = "<group>"; };
 		50E79DE81F7CDDF600A2E6FB /* SwiftTypeConversion.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftTypeConversion.podspec; sourceTree = "<group>"; };
+		50E79DF31F7CED8800A2E6FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		50E79DF41F7CED8800A2E6FB /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				50E79DE81F7CDDF600A2E6FB /* SwiftTypeConversion.podspec */,
+				50E79DF41F7CED8800A2E6FB /* LICENSE */,
+				50E79DF31F7CED8800A2E6FB /* README.md */,
 				50E79DDD1F7CD22B00A2E6FB /* Info.plist */,
 			);
 			name = config;
