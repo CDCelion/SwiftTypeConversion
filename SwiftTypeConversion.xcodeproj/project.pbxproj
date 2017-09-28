@@ -51,8 +51,7 @@
 		50E79DDB1F7CD22B00A2E6FB /* SwiftTypeConversion */ = {
 			isa = PBXGroup;
 			children = (
-				50E79DDC1F7CD22B00A2E6FB /* SwiftTypeConversion.h */,
-				50E79DF11F7CE3E200A2E6FB /* source */,
+				50E79DF61F7CF24C00A2E6FB /* source */,
 				50E79DEF1F7CE37600A2E6FB /* config */,
 			);
 			path = SwiftTypeConversion;
@@ -69,12 +68,13 @@
 			name = config;
 			sourceTree = "<group>";
 		};
-		50E79DF11F7CE3E200A2E6FB /* source */ = {
+		50E79DF61F7CF24C00A2E6FB /* source */ = {
 			isa = PBXGroup;
 			children = (
+				50E79DDC1F7CD22B00A2E6FB /* SwiftTypeConversion.h */,
 				50E79DE41F7CD29D00A2E6FB /* TypeConversion.swift */,
 			);
-			name = source;
+			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
