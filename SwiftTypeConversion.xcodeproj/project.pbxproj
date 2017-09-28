@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		50E79DDE1F7CD22B00A2E6FB /* SwiftTypeConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E79DDC1F7CD22B00A2E6FB /* SwiftTypeConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50E79DE51F7CD29D00A2E6FB /* TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E79DE41F7CD29D00A2E6FB /* TypeConversion.swift */; };
+		50E79DF81F7CFDCB00A2E6FB /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 50E79DF71F7CFDCB00A2E6FB /* .swift-version */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		50E79DE81F7CDDF600A2E6FB /* SwiftTypeConversion.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftTypeConversion.podspec; sourceTree = "<group>"; };
 		50E79DF31F7CED8800A2E6FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		50E79DF41F7CED8800A2E6FB /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		50E79DF71F7CFDCB00A2E6FB /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,7 @@
 		50E79DDB1F7CD22B00A2E6FB /* SwiftTypeConversion */ = {
 			isa = PBXGroup;
 			children = (
-				50E79DF61F7CF24C00A2E6FB /* Source */,
+				50E79DF61F7CF24C00A2E6FB /* source */,
 				50E79DEF1F7CE37600A2E6FB /* config */,
 			);
 			path = SwiftTypeConversion;
@@ -60,21 +62,22 @@
 		50E79DEF1F7CE37600A2E6FB /* config */ = {
 			isa = PBXGroup;
 			children = (
-				50E79DE81F7CDDF600A2E6FB /* SwiftTypeConversion.podspec */,
 				50E79DF41F7CED8800A2E6FB /* LICENSE */,
 				50E79DF31F7CED8800A2E6FB /* README.md */,
 				50E79DDD1F7CD22B00A2E6FB /* Info.plist */,
+				50E79DE81F7CDDF600A2E6FB /* SwiftTypeConversion.podspec */,
+				50E79DF71F7CFDCB00A2E6FB /* .swift-version */,
 			);
 			name = config;
 			sourceTree = "<group>";
 		};
-		50E79DF61F7CF24C00A2E6FB /* Source */ = {
+		50E79DF61F7CF24C00A2E6FB /* source */ = {
 			isa = PBXGroup;
 			children = (
 				50E79DDC1F7CD22B00A2E6FB /* SwiftTypeConversion.h */,
 				50E79DE41F7CD29D00A2E6FB /* TypeConversion.swift */,
 			);
-			path = Source;
+			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E79DF81F7CFDCB00A2E6FB /* .swift-version in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
