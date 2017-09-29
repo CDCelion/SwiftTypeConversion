@@ -6,19 +6,15 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		50E79DDE1F7CD22B00A2E6FB /* SwiftTypeConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E79DDC1F7CD22B00A2E6FB /* SwiftTypeConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50E79DE51F7CD29D00A2E6FB /* TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E79DE41F7CD29D00A2E6FB /* TypeConversion.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		50CF436C1F7DE5A70087177C /* SwiftTypeConversion.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftTypeConversion.podspec; sourceTree = SOURCE_ROOT; };
 		50CF436D1F7DE5A70087177C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		50CF436E1F7DE5A70087177C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		50CF43701F7DE9440087177C /* SwiftTypeConversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftTypeConversion.h; sourceTree = "<group>"; };
+		50CF43711F7DE9440087177C /* TypeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeConversion.swift; sourceTree = "<group>"; };
+		50CF43741F7DEA8E0087177C /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = SOURCE_ROOT; };
 		50E79DD91F7CD22B00A2E6FB /* SwiftTypeConversion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTypeConversion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50E79DDC1F7CD22B00A2E6FB /* SwiftTypeConversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftTypeConversion.h; sourceTree = "<group>"; };
 		50E79DDD1F7CD22B00A2E6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50E79DE41F7CD29D00A2E6FB /* TypeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeConversion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +28,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50CF436F1F7DE9440087177C /* source */ = {
+			isa = PBXGroup;
+			children = (
+				50CF43701F7DE9440087177C /* SwiftTypeConversion.h */,
+				50CF43711F7DE9440087177C /* TypeConversion.swift */,
+			);
+			path = source;
+			sourceTree = SOURCE_ROOT;
+		};
 		50E79DCF1F7CD22B00A2E6FB = {
 			isa = PBXGroup;
 			children = (
@@ -51,7 +56,7 @@
 		50E79DDB1F7CD22B00A2E6FB /* SwiftTypeConversion */ = {
 			isa = PBXGroup;
 			children = (
-				50E79DF61F7CF24C00A2E6FB /* source */,
+				50CF436F1F7DE9440087177C /* source */,
 				50E79DEF1F7CE37600A2E6FB /* config */,
 			);
 			path = SwiftTypeConversion;
@@ -60,21 +65,13 @@
 		50E79DEF1F7CE37600A2E6FB /* config */ = {
 			isa = PBXGroup;
 			children = (
+				50CF43741F7DEA8E0087177C /* .swift-version */,
 				50E79DDD1F7CD22B00A2E6FB /* Info.plist */,
 				50CF436E1F7DE5A70087177C /* LICENSE */,
 				50CF436D1F7DE5A70087177C /* README.md */,
 				50CF436C1F7DE5A70087177C /* SwiftTypeConversion.podspec */,
 			);
 			name = config;
-			sourceTree = "<group>";
-		};
-		50E79DF61F7CF24C00A2E6FB /* source */ = {
-			isa = PBXGroup;
-			children = (
-				50E79DDC1F7CD22B00A2E6FB /* SwiftTypeConversion.h */,
-				50E79DE41F7CD29D00A2E6FB /* TypeConversion.swift */,
-			);
-			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +81,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50E79DDE1F7CD22B00A2E6FB /* SwiftTypeConversion.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +153,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50E79DE51F7CD29D00A2E6FB /* TypeConversion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
