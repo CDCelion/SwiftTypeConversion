@@ -43,11 +43,22 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
+		50CF437E1F7E2C4A0087177C /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				50CF437B1F7E271D0087177C /* README.md */,
+				50CF43791F7E271D0087177C /* SwiftTypeConversion.podspec */,
+				50CF43781F7E271D0087177C /* .swift-version */,
+				50CF437A1F7E271D0087177C /* LICENSE */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
 		50E79DCF1F7CD22B00A2E6FB = {
 			isa = PBXGroup;
 			children = (
+				50CF437E1F7E2C4A0087177C /* Documentation */,
 				50CF43751F7E26840087177C /* Source */,
-				50E79DDB1F7CD22B00A2E6FB /* Documentation */,
 				50E79DDA1F7CD22B00A2E6FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,17 +69,6 @@
 				50E79DD91F7CD22B00A2E6FB /* SwiftTypeConversion.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		50E79DDB1F7CD22B00A2E6FB /* Documentation */ = {
-			isa = PBXGroup;
-			children = (
-				50CF43781F7E271D0087177C /* .swift-version */,
-				50CF437A1F7E271D0087177C /* LICENSE */,
-				50CF437B1F7E271D0087177C /* README.md */,
-				50CF43791F7E271D0087177C /* SwiftTypeConversion.podspec */,
-			);
-			path = Documentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
