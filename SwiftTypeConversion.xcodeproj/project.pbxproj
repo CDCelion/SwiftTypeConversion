@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		50CF437C1F7E29AB0087177C /* SwiftTypeConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 50CF43761F7E26840087177C /* SwiftTypeConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50CF437D1F7E29AB0087177C /* TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CF43771F7E26840087177C /* TypeConversion.swift */; };
+		50CF43961F7E4B5F0087177C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CF43951F7E4B5F0087177C /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		50CF43791F7E271D0087177C /* SwiftTypeConversion.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftTypeConversion.podspec; sourceTree = "<group>"; };
 		50CF437A1F7E271D0087177C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		50CF437B1F7E271D0087177C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		50CF43951F7E4B5F0087177C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		50E79DD91F7CD22B00A2E6FB /* SwiftTypeConversion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTypeConversion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E79DDD1F7CD22B00A2E6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -27,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50CF43961F7E4B5F0087177C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +57,21 @@
 			name = Documentation;
 			sourceTree = "<group>";
 		};
+		50CF43941F7E4B5F0087177C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50CF43951F7E4B5F0087177C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		50E79DCF1F7CD22B00A2E6FB = {
 			isa = PBXGroup;
 			children = (
 				50CF437E1F7E2C4A0087177C /* Documentation */,
 				50CF43751F7E26840087177C /* Source */,
 				50E79DDA1F7CD22B00A2E6FB /* Products */,
+				50CF43941F7E4B5F0087177C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
