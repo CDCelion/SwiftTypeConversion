@@ -12,6 +12,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50CF436C1F7DE5A70087177C /* SwiftTypeConversion.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftTypeConversion.podspec; sourceTree = SOURCE_ROOT; };
+		50CF436D1F7DE5A70087177C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		50CF436E1F7DE5A70087177C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		50E79DD91F7CD22B00A2E6FB /* SwiftTypeConversion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTypeConversion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E79DDC1F7CD22B00A2E6FB /* SwiftTypeConversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftTypeConversion.h; sourceTree = "<group>"; };
 		50E79DDD1F7CD22B00A2E6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				50E79DDD1F7CD22B00A2E6FB /* Info.plist */,
+				50CF436E1F7DE5A70087177C /* LICENSE */,
+				50CF436D1F7DE5A70087177C /* README.md */,
+				50CF436C1F7DE5A70087177C /* SwiftTypeConversion.podspec */,
 			);
 			name = config;
 			sourceTree = "<group>";
